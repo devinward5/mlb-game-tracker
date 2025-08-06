@@ -1,8 +1,7 @@
 export default function Home() {
   return (
-    <main className="p-8">
-      <h1 className="text-2xl font-bold">MLB Game Tracker</h1>
-      <p className="mt-4">Welcome! Your app is set up and ready to expand.</p>
+    <main className="flex min-h-screen items-center justify-center bg-white text-black">
+      <h1 className="text-4xl font-bold">MLB Game Tracker</h1>
     </main>
   );
 }
